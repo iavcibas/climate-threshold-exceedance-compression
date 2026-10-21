@@ -1,0 +1,89 @@
+P34b (confirm)
+  confirm: N = 91864030; p0 = 30: 0.03414, 35: 0.02359, 40: 0.00822
+    PACK(0.01): max |e| 0.0050, 9 s
+    PACK(0.05): max |e| 0.0250, 7 s
+    PACK(0.1): max |e| 0.0500, 6 s
+    PACK(0.25): max |e| 0.1250, 5 s
+    PACK(0.5): max |e| 0.2500, 5 s
+    BITROUND(5): max |e| 0.5000, 7 s
+    BITROUND(6): max |e| 0.2500, 8 s
+    BITROUND(7): max |e| 0.1250, 8 s
+    BITROUND(8): max |e| 0.0625, 6 s
+    BITROUND(9): max |e| 0.0312, 7 s
+    LORENZO(0.05): max |e| 0.0500, 19 s
+    LORENZO(0.1): max |e| 0.1000, 20 s
+    LORENZO(0.25): max |e| 0.2500, 29 s
+    LORENZO(0.5): max |e| 0.5000, 19 s
+    LORENZO(1.0): max |e| 1.0000, 17 s
+    NIPRED(0.05): max |e| 0.0500, 21 s
+    NIPRED(0.1): max |e| 0.1000, 20 s
+    NIPRED(0.25): max |e| 0.2500, 23 s
+    NIPRED(0.5): max |e| 0.5000, 25 s
+    NIPRED(1.0): max |e| 1.0000, 34 s
+
+==== cells ====
+  PACK     0.01  tau 30 | flips    15852 pred    15679.1 | count change    -15852 pred   -15679.1 | exceedances 24809953
+  PACK     0.01  tau 35 | flips    10603 pred    10835.2 | count change    -10603 pred   -10835.2 | exceedances 9134605
+  PACK     0.01  tau 40 | flips     3820 pred     3776.2 | count change     -3820 pred    -3776.2 | exceedances 2595001
+  PACK     0.05  tau 30 | flips    79061 pred    78395.7 | count change    -79061 pred   -78395.7 | exceedances 24809953
+  PACK     0.05  tau 35 | flips    53849 pred    54176.1 | count change    -53849 pred   -54176.1 | exceedances 9134605
+  PACK     0.05  tau 40 | flips    18823 pred    18880.8 | count change    -18823 pred   -18880.8 | exceedances 2595001
+  PACK     0.1   tau 30 | flips   158016 pred   156791.3 | count change   -158016 pred  -156791.3 | exceedances 24809953
+  PACK     0.1   tau 35 | flips   107684 pred   108352.2 | count change   -107684 pred  -108352.2 | exceedances 9134605
+  PACK     0.1   tau 40 | flips    37582 pred    37761.5 | count change    -37582 pred   -37761.5 | exceedances 2595001
+  PACK     0.25  tau 30 | flips   394978 pred   391978.2 | count change   -394978 pred  -391978.2 | exceedances 24809953
+  PACK     0.25  tau 35 | flips   267154 pred   270880.5 | count change   -267154 pred  -270880.5 | exceedances 9134605
+  PACK     0.25  tau 40 | flips    93736 pred    94403.8 | count change    -93736 pred   -94403.8 | exceedances 2595001
+  PACK     0.5   tau 30 | flips   794054 pred   783956.5 | count change   -794054 pred  -783956.5 | exceedances 24809953
+  PACK     0.5   tau 35 | flips   525718 pred   541761.0 | count change   -525718 pred  -541761.0 | exceedances 9134605
+  PACK     0.5   tau 40 | flips   184775 pred   188807.5 | count change   -184775 pred  -188807.5 | exceedances 2595001
+  BITROUND 5     tau 30 | flips   794054 pred   783956.5 | count change   -794054 pred  -783956.5 | exceedances 24809953
+  BITROUND 5     tau 35 | flips  1022404 pred  1083522.0 | count change  -1022404 pred -1083522.0 | exceedances 9134605
+  BITROUND 5     tau 40 | flips   360353 pred   377615.0 | count change   -360353 pred  -377615.0 | exceedances 2595001
+  BITROUND 6     tau 30 | flips   394978 pred   391978.2 | count change   -394978 pred  -391978.2 | exceedances 24809953
+  BITROUND 6     tau 35 | flips   525718 pred   541761.0 | count change   -525718 pred  -541761.0 | exceedances 9134605
+  BITROUND 6     tau 40 | flips   184775 pred   188807.5 | count change   -184775 pred  -188807.5 | exceedances 2595001
+  BITROUND 7     tau 30 | flips   197580 pred   195989.1 | count change   -197580 pred  -195989.1 | exceedances 24809953
+  BITROUND 7     tau 35 | flips   267154 pred   270880.5 | count change   -267154 pred  -270880.5 | exceedances 9134605
+  BITROUND 7     tau 40 | flips    93736 pred    94403.8 | count change    -93736 pred   -94403.8 | exceedances 2595001
+  BITROUND 8     tau 30 | flips    98757 pred    97994.6 | count change    -98757 pred   -97994.6 | exceedances 24809953
+  BITROUND 8     tau 35 | flips   134332 pred   135440.2 | count change   -134332 pred  -135440.2 | exceedances 9134605
+  BITROUND 8     tau 40 | flips    47053 pred    47201.9 | count change    -47053 pred   -47201.9 | exceedances 2595001
+  BITROUND 9     tau 30 | flips    49269 pred    48997.3 | count change    -49269 pred   -48997.3 | exceedances 24809953
+  BITROUND 9     tau 35 | flips    67385 pred    67720.1 | count change    -67385 pred   -67720.1 | exceedances 9134605
+  BITROUND 9     tau 40 | flips    23536 pred    23600.9 | count change    -23536 pred   -23600.9 | exceedances 2595001
+  LORENZO  0.05  tau 30 | flips   158016 pred   156791.3 | count change   -158016 pred  -156791.3 | exceedances 24809953
+  LORENZO  0.05  tau 35 | flips   107684 pred   108352.2 | count change   -107684 pred  -108352.2 | exceedances 9134605
+  LORENZO  0.05  tau 40 | flips    37582 pred    37761.5 | count change    -37582 pred   -37761.5 | exceedances 2595001
+  LORENZO  0.1   tau 30 | flips   315906 pred   313582.6 | count change   -315906 pred  -313582.6 | exceedances 24809953
+  LORENZO  0.1   tau 35 | flips   214660 pred   216704.4 | count change   -214660 pred  -216704.4 | exceedances 9134605
+  LORENZO  0.1   tau 40 | flips    75090 pred    75523.0 | count change    -75090 pred   -75523.0 | exceedances 2595001
+  LORENZO  0.25  tau 30 | flips   794051 pred   783956.5 | count change   -794051 pred  -783956.5 | exceedances 24809953
+  LORENZO  0.25  tau 35 | flips   525714 pred   541761.0 | count change   -525714 pred  -541761.0 | exceedances 9134605
+  LORENZO  0.25  tau 40 | flips   184774 pred   188807.5 | count change   -184774 pred  -188807.5 | exceedances 2595001
+  LORENZO  0.5   tau 30 | flips  1608042 pred  1567913.0 | count change  -1608042 pred -1567913.0 | exceedances 24809953
+  LORENZO  0.5   tau 35 | flips  1022410 pred  1083522.0 | count change  -1022410 pred -1083522.0 | exceedances 9134605
+  LORENZO  0.5   tau 40 | flips   360352 pred   377615.0 | count change   -360352 pred  -377615.0 | exceedances 2595001
+  LORENZO  1.0   tau 30 | flips  3289443 pred  3135826.0 | count change  -3289443 pred -3135826.0 | exceedances 24809953
+  LORENZO  1.0   tau 35 | flips        2 pred        0.0 | count change        +2 pred       +0.0 | exceedances 9134605
+  LORENZO  1.0   tau 40 | flips   686446 pred   755230.0 | count change   -686446 pred  -755230.0 | exceedances 2595001
+  NIPRED   0.05  tau 30 | flips    79006 pred    78415.9 | count change     -1606 pred     -512.8 | exceedances 24809953
+  NIPRED   0.05  tau 35 | flips    53880 pred    54153.8 | count change      -172 pred     +389.6 | exceedances 9134605
+  NIPRED   0.05  tau 40 | flips    19053 pred    18780.5 | count change      -339 pred     -104.8 | exceedances 2595001
+  NIPRED   0.1   tau 30 | flips   154901 pred   157301.3 | count change     -2621 pred    -1012.3 | exceedances 24809953
+  NIPRED   0.1   tau 35 | flips   108165 pred   108329.1 | count change     +3209 pred    +1237.1 | exceedances 9134605
+  NIPRED   0.1   tau 40 | flips    39403 pred    37523.1 | count change      -557 pred      +21.6 | exceedances 2595001
+  NIPRED   0.25  tau 30 | flips   466405 pred   385289.0 | count change    -15949 pred    -4706.5 | exceedances 24809953
+  NIPRED   0.25  tau 35 | flips   210582 pred   277700.0 | count change      +264 pred    +4090.0 | exceedances 9134605
+  NIPRED   0.25  tau 40 | flips   122620 pred    91963.3 | count change      -696 pred    +1306.9 | exceedances 2595001
+  NIPRED   0.5   tau 30 | flips   515677 pred   814047.3 | count change       -55 pred   -10149.6 | exceedances 24809953
+  NIPRED   0.5   tau 35 | flips   526742 pred   543369.2 | count change   +230402 pred   +57308.6 | exceedances 9134605
+  NIPRED   0.5   tau 40 | flips   294804 pred   177862.1 | count change     -2056 pred    +4737.6 | exceedances 2595001
+  NIPRED   1.0   tau 30 | flips  1552359 pred  1534055.1 | count change   +722031 pred   +92934.0 | exceedances 24809953
+  NIPRED   1.0   tau 35 | flips  1497920 pred  1010215.4 | count change   +894186 pred  +161933.0 | exceedances 9134605
+  NIPRED   1.0   tau 40 | flips   638279 pred   336862.2 | count change    -25647 pred   +15973.9 | exceedances 2595001
+
+==== Pre-registered rules (decided on the confirmation years only) ====
+B1 (lattice codecs PACK/BITROUND/LORENZO: flips = lattice law): 44/44 -> PASS (rule: at least 80 %)
+B2 (lattice codecs: all flips one-way, predicted sign): 44/44 -> PASS (rule: all)
+B3 (NIPRED: plug-in flips 8/15, two-way |dC| <= 0.2 F 12/15) -> FAIL (rule: both at least 80 %)

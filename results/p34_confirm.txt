@@ -1,0 +1,73 @@
+P34 gate (confirm), seed 20261012, zfp available
+  confirm: N = 91864030 valid day-cells; value granularity (median spacing of distinct values) 0.0003 degC
+    tau 30: exceedances 24809953, p0 = 0.03414 /degC, p1 = 0.003326 /degC^2
+    tau 35: exceedances 9134605, p0 = 0.02359 /degC, p1 = -0.005460 /degC^2
+    tau 40: exceedances 2595001, p0 = 0.00822 /degC, p1 = -0.001529 /degC^2
+    UQ(0.05): max |e| 0.0500, 8 s
+    UQ(0.1): max |e| 0.1000, 10 s
+    UQ(0.25): max |e| 0.2500, 8 s
+    UQ(0.5): max |e| 0.5000, 8 s
+    UQ(1.0): max |e| 1.0000, 7 s
+    CERT(0.05): max |e| 0.0500, 6 s
+    CERT(0.1): max |e| 0.1000, 6 s
+    CERT(0.25): max |e| 0.2500, 6 s
+    CERT(0.5): max |e| 0.5000, 7 s
+    CERT(1.0): max |e| 1.0000, 10 s
+    ZFP(0.05): max |e| 0.0148, 16 s
+    ZFP(0.1): max |e| 0.0296, 15 s
+    ZFP(0.25): max |e| 0.1183, 14 s
+    ZFP(0.5): max |e| 0.2401, 13 s
+    ZFP(1.0): max |e| 0.5041, 17 s
+
+==== cells ====
+  UQ  eps 0.05 tau 30 | flips  121328 pred  122115.1 | count change +121328 pred +122115.1 | exceedances 24809953
+  UQ  eps 0.05 tau 35 | flips   84885 pred   84388.9 | count change  +84885 pred  +84388.9 | exceedances 9134605
+  UQ  eps 0.05 tau 40 | flips   29372 pred   29410.1 | count change  +29372 pred  +29410.1 | exceedances 2595001
+  UQ  eps 0.1  tau 30 | flips  260804 pred  258718.0 | count change -260804 pred -258718.0 | exceedances 24809953
+  UQ  eps 0.1  tau 35 | flips  177221 pred  178789.7 | count change -177221 pred -178789.7 | exceedances 9134605
+  UQ  eps 0.1  tau 40 | flips   62021 pred   62309.5 | count change  -62021 pred  -62309.5 | exceedances 2595001
+  UQ  eps 0.25 tau 30 | flips  168156 pred  169465.7 | count change +168156 pred +169465.7 | exceedances 24809953
+  UQ  eps 0.25 tau 35 | flips  117745 pred  117111.0 | count change +117745 pred +117111.0 | exceedances 9134605
+  UQ  eps 0.25 tau 40 | flips   40761 pred   40814.0 | count change  +40761 pred  +40814.0 | exceedances 2595001
+  UQ  eps 0.5  tau 30 | flips 1071753 pred 1090971.4 | count change +1071753 pred +1090971.4 | exceedances 24809953
+  UQ  eps 0.5  tau 35 | flips  785556 pred  753926.7 | count change +785556 pred +753926.7 | exceedances 9134605
+  UQ  eps 0.5  tau 40 | flips  270521 pred  262748.7 | count change +270521 pred +262748.7 | exceedances 2595001
+  UQ  eps 1.0  tau 30 | flips 2344922 pred 2437302.3 | count change +2344922 pred +2437302.3 | exceedances 24809953
+  UQ  eps 1.0  tau 35 | flips  469709 pred  482721.8 | count change -469709 pred -482721.8 | exceedances 9134605
+  UQ  eps 1.0  tau 40 | flips  628887 pred  586998.1 | count change +628887 pred +586998.1 | exceedances 2595001
+  CERT eps 0.05 tau 30 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 24809953
+  CERT eps 0.05 tau 35 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 9134605
+  CERT eps 0.05 tau 40 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 2595001
+  CERT eps 0.1  tau 30 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 24809953
+  CERT eps 0.1  tau 35 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 9134605
+  CERT eps 0.1  tau 40 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 2595001
+  CERT eps 0.25 tau 30 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 24809953
+  CERT eps 0.25 tau 35 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 9134605
+  CERT eps 0.25 tau 40 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 2595001
+  CERT eps 0.5  tau 30 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 24809953
+  CERT eps 0.5  tau 35 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 9134605
+  CERT eps 0.5  tau 40 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 2595001
+  CERT eps 1.0  tau 30 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 24809953
+  CERT eps 1.0  tau 35 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 9134605
+  CERT eps 1.0  tau 40 | flips       0 pred       0.0 | count change      +0 pred      +0.0 | exceedances 2595001
+  ZFP eps 0.05 tau 30 | flips    6803 pred    6711.9 | count change    -101 pred    +268.4 | exceedances 24809953
+  ZFP eps 0.05 tau 35 | flips    4544 pred    4527.5 | count change    -840 pred    -703.5 | exceedances 9134605
+  ZFP eps 0.05 tau 40 | flips    1625 pred    1624.0 | count change    -293 pred    -275.5 | exceedances 2595001
+  ZFP eps 0.1  tau 30 | flips   13507 pred   13411.6 | count change   -1371 pred    -790.7 | exceedances 24809953
+  ZFP eps 0.1  tau 35 | flips    9101 pred    9106.8 | count change   +1049 pred   +1388.0 | exceedances 9134605
+  ZFP eps 0.1  tau 40 | flips    3153 pred    3211.0 | count change    +387 pred    +453.7 | exceedances 2595001
+  ZFP eps 0.25 tau 30 | flips   53540 pred   53524.3 | count change   -4430 pred   -2958.2 | exceedances 24809953
+  ZFP eps 0.25 tau 35 | flips   36873 pred   36768.7 | count change   +4733 pred   +5773.4 | exceedances 9134605
+  ZFP eps 0.25 tau 40 | flips   12708 pred   12800.7 | count change   +1518 pred   +1953.3 | exceedances 2595001
+  ZFP eps 0.5  tau 30 | flips  107781 pred  106747.4 | count change   +1813 pred   +3782.2 | exceedances 24809953
+  ZFP eps 0.5  tau 35 | flips   73159 pred   73331.5 | count change  -13199 pred  -10745.0 | exceedances 9134605
+  ZFP eps 0.5  tau 40 | flips   25823 pred   25526.1 | count change   -4917 pred   -3813.0 | exceedances 2595001
+  ZFP eps 1.0  tau 30 | flips  211715 pred  211710.5 | count change  -19487 pred   -5194.9 | exceedances 24809953
+  ZFP eps 1.0  tau 35 | flips  144835 pred  145541.4 | count change  +18355 pred  +24448.1 | exceedances 9134605
+  ZFP eps 1.0  tau 40 | flips   50401 pred   50572.4 | count change   +5789 pred   +8168.8 | exceedances 2595001
+
+==== Pre-registered rules (decided on the confirmation years only) ====
+K1 (UQ flips = N p0 d_tau within max(15 %, 2 sqrt)): 15/15 -> PASS (rule: at least 80 %)
+K2 (ZFP flips = plug-in crossing sum within max(15 %, 2 sqrt)): 15/15 -> PASS (rule: at least 80 %)
+K3 (UQ: all flips one-way with the predicted sign; CERT: zero flips): 15/15 -> PASS (rule: all)
+Verdict: Both flip laws and the one-way bias hold; the aligned grid removes every flip -> paper.
