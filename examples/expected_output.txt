@@ -1,0 +1,16 @@
+Synthetic field: 30 days x 360 x 720, N = 2238720 valid values
+Density of the original data at tau: p0(30) = 0.03442 /degC, p0(35) = 0.01046 /degC
+
+codec                                 tau  F measured  F predicted  count change   check
+PACK s=0.25, offset 0                  30        9310       9631.0         -9310   ok
+PACK s=0.25, offset 0                  35        2801       2928.0         -2801   ok
+BITROUND k=7                           30        4609       4815.5         -4609   ok
+BITROUND k=7                           35        2801       2928.0         -2801   ok
+LORENZO eps=0.25                       30       18934      19262.0        -18934   ok
+LORENZO eps=0.25                       35        5565       5856.0         -5565   ok
+PACK s=0.25, aligned (offset s/2)      30           0          0.0            +0   ok
+PACK s=0.25, aligned (offset s/2)      35           0          0.0            +0   ok
+
+Elapsed: 1.5 s
+QUICK TEST PASSED: on-grid codecs lose the predicted number of exceedances (all downward);
+the threshold-aligned grid changes no decision.
